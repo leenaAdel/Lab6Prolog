@@ -1,0 +1,19 @@
+71 ?- make.
+true.
+
+72 ?- can_buy(100000, red).
+With 80000 you can purchase the car datsun in red
+true ;
+false.
+
+73 ?- can_buy(100000, blue).
+With 80000 you can purchase the truck ford in blue
+true .
+
+74 ?- can_buy(100000, green).
+false.
+
+75 ?- can_buy(95000).
+With 90000 you can purchase the car ford
+true .
+
